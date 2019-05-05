@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     background-color: #F7DE26;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.466);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.466);
     margin-bottom: 50px;
 }
 
@@ -34,7 +34,7 @@
 } */
 
 .nav-sup img{
-    padding: 10px;
+    padding: 5px 30px;
     height: 50px;
 }
 
@@ -44,9 +44,9 @@
     flex-wrap: nowrap;
 }
 
-.container .show-nav{
+/* .container .show-nav{
     width: 20vw;
-}
+} */
 
 .container .nav-lat{
     width: 50vw;
@@ -68,8 +68,8 @@
 }
 
 .content h1{
-    padding: 20px;
-    border-bottom: 1px solid #732F81;
+    border-bottom: 1px solid rgba(115, 47, 129, 0.349);
+    margin-bottom: 20px;
 }
 
 .content p{
@@ -101,6 +101,77 @@
     justify-content: center;
     background-color: #F7DE26;
 }
+
+/* CORES */
+
+.section-cores{
+    display: flex;
+}
+
+.section-cores div{
+    cursor: pointer;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.527);
+}
+
+.section-cores .cor-roxo{
+    background-color: #732F81;
+}
+
+.section-cores .cor-amarelo{
+    background-color: #F7DE26;
+}
+
+.section-cores .cor-verde{
+    background-color: #14C17E;
+}
+
+.section-cores .cor-roxo article{
+    color: rgb(255, 255, 255);
+}
+
+/* BOTÕES */
+
+.section-botoes{
+    display: flex;
+}
+
+.section-botoes button{
+    cursor: pointer;
+    border-radius: 7px;
+    width: 120px;
+    padding: 10px;
+    margin: 20px;
+    user-select: none;
+    font-size: 14pt;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.section-botoes button:hover{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.486);
+}
+
+.section-botoes .botao-primario{
+    background-color: #732F81;
+    color: white;
+}
+
+.section-botoes .botao-primario:hover{
+    background-color: rgb(96, 39, 107);
+}
+
+.section-botoes .botao-secundario{
+    background-color: white;
+    color: #732F81;
+    border: 1px solid #732F81;
+}
+
+
 
 /* @media screen and (min-width: 480px){
     .nav-sup .botao_sanduiche{
