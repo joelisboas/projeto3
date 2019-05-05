@@ -12,10 +12,26 @@
 
 .nav-sup{
     display: flex;
+    align-items: center;
     background-color: #F7DE26;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.466);
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
+
+/* .nav-sup .botao_sanduiche{
+    position: relative;
+    color: #732F81;
+    width: 50px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 2px solid;
+    margin-left: 20px; 
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    display: none;
+    user-select: none;
+} */
 
 .nav-sup img{
     padding: 10px;
@@ -23,22 +39,28 @@
 }
 
 .container{
-    display: FLEX;
-    padding: 0 40px;
+    padding: 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.container .show-nav{
+    width: 20vw;
 }
 
 .container .nav-lat{
-    width: 20%;
-    height: 85vh;
+    width: 50vw;
     border-right: 1px solid #732F81;
 }
 
-.container .nav-lat ul{ 
+.container .nav-lat ul{
     list-style-type: none;
 }
 
 .container .nav-lat ul li{
-    padding: 10px;
+    font-size: 12pt;
+    padding: 20px 30px;
+    user-select: none;
 }
 
 .content{
@@ -46,9 +68,12 @@
 }
 
 .content h1{
-    display: block;
     padding: 20px;
     border-bottom: 1px solid #732F81;
+}
+
+.content p{
+    margin-top: 20px;
 }
 
 .div-content{
@@ -67,5 +92,24 @@
 }
 
 .container .nav-lat ul .li-logo:hover .conteudo{
-    height: 100px;
+    height: 100%;
 }
+
+.div-yellow{
+    display: flex;
+    justify-content: center;
+    background-color: #F7DE26;
+}
+
+/* @media screen and (min-width: 480px){
+    .nav-sup .botao_sanduiche{
+        display: none;
+        user-select: none;
+    }
+
+    .container .nav-lat{
+        width: 20vw;
+        height: 87vh;
+        border-right: 1px solid #732F81;
+    }
+} */
