@@ -5,10 +5,6 @@
     font-style: normal;
     font-weight: 300;
 }
-/* body{
-    overflow: hidden;
-    position: relative;
-} */
 
 .nav-sup{
     display: flex;
@@ -48,6 +44,9 @@
     width: 20vw;
 } */
 
+
+/* NAVEGADOR LATERAL---------------------------------------------------------- */
+
 .container .nav-lat{
     width: 50vw;
     border-right: 1px solid #732F81;
@@ -62,6 +61,18 @@
     padding: 20px 30px;
     user-select: none;
 }
+
+.container .nav-lat ul li:hover{
+    cursor: pointer;
+    color: #F7DE26;
+    background-color: #732F81;
+}
+
+.container .nav-lat ul .li-logo:hover .conteudo{
+    height: 100%;
+}
+
+/* CONTEÚDO --------------------------------------------------------------------------*/
 
 .content{
     margin-left: 20px;
@@ -85,16 +96,7 @@
     max-height: 100%;
 }
 
-.container .nav-lat ul li:hover{
-    cursor: pointer;
-    color: #F7DE26;
-    background-color: #732F81;
-}
-
-.container .nav-lat ul .li-logo:hover .conteudo{
-    height: 100%;
-}
-
+/* LOGOMARCA -----------------------------------------------------------------------------------------*/
 
 .div-yellow{
     display: flex;
@@ -102,7 +104,7 @@
     background-color: #F7DE26;
 }
 
-/* CORES */
+/* CORES ------------------------------------------------------------------------------------*/
 
 .section-cores{
     display: flex;
@@ -134,7 +136,11 @@
     color: rgb(255, 255, 255);
 }
 
-/* BOTÕES */
+.section-cores .HEX{
+    margin-top: 60px;
+}
+
+/* BOTÕES ----------------------------------------------------------------------------------------*/
 
 .section-botoes{
     display: flex;
