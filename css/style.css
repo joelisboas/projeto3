@@ -128,10 +128,6 @@
     margin-bottom: 20px;
 }
 
-.content-tipo .tipo1{
-
-}
-
 .content-tipo span{
     display: inline-block;
     margin: 5px 20px;
@@ -141,13 +137,17 @@
 
 /* CORES ------------------------------------------------------------------------------------*/
 
-.section-cores{
+/* .section-cores{
+    display: flex;
+} */
+
+.cor-flex{
     display: flex;
 }
 
-.section-cores div{
+.section-cores .cor{
     cursor: pointer;
-    width: 150px;
+    width: 120px;
     height: 100px;
     border-radius: 20px;
     margin: 20px;
