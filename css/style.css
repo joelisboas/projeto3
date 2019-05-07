@@ -98,10 +98,23 @@
 
 /* LOGOMARCA -----------------------------------------------------------------------------------------*/
 
+.content-logo p{
+    margin-bottom: 40px;
+}
+
 .div-yellow{
     display: flex;
     justify-content: center;
     background-color: #F7DE26;
+}
+
+.content-logo .diminuida{
+    display: inline;
+    align-content: center;
+}
+
+.content-logo .diminuida img{
+    width: 100px;
 }
 
 /* CORES ------------------------------------------------------------------------------------*/
@@ -175,6 +188,37 @@
     background-color: white;
     color: #732F81;
     border: 1px solid #732F81;
+}
+
+/* FORMULÁRIO----------------------------------------------------------------- */
+
+.input{
+    border-radius: 7px;
+    height: 15px;
+    width: auto;
+    padding: 10px;
+    margin: 10px;
+    border-color: rgb(233, 233, 233);
+    font-size: 12px;
+}
+
+.input-nome{
+    width: 250px;
+}
+
+.input-email {
+    width: 200px;
+}
+
+.input-data{
+    width: 50px;
+}
+
+.input-local{
+    height: 50px;
+}
+.input-estado{
+    height: 50px;
 }
 
 
