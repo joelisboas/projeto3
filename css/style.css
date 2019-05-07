@@ -74,6 +74,11 @@
     background-color: #732F81;
 }
 
+.container .nav-lat ul .li-active{
+    background-color: #732F81;
+    color: #F7DE26;
+}
+
 .container .nav-lat ul .li-logo:hover .conteudo{
     height: 100%;
 }
