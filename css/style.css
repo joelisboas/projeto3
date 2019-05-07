@@ -190,6 +190,7 @@
 }
 
 .pre-code{
+    margin-bottom: 30px;
     width: 300px;
     display: flex;
     background-color: rgb(236, 236, 236);
@@ -200,6 +201,7 @@
 } */
 
 .section-botoes button{
+    float: left;
     cursor: pointer;
     border-radius: 7px;
     width: 120px;
@@ -232,6 +234,12 @@
 }
 
 /* FORMULÁRIO----------------------------------------------------------------- */
+
+.content-form .form{
+    margin-right: 100px;
+    width: 400px;
+    float: left;
+}
 
 .input{
     border-radius: 7px;
