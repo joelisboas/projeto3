@@ -177,19 +177,33 @@
 
 /* BOTÕES ----------------------------------------------------------------------------------------*/
 
-.pre-code{
-    background-color: rgb(236, 236, 236);
+.code-text{
     padding: 10px;
 }
 
+.code-num{
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    background-color: rgb(197, 197, 197);
+}
+
+.pre-code{
+    width: 300px;
+    display: flex;
+    background-color: rgb(236, 236, 236);
+}
+/* 
 .section-botoes{
     display: flex;
-}
+} */
 
 .section-botoes button{
     cursor: pointer;
     border-radius: 7px;
     width: 120px;
+    /* height: 00px; */
     padding: 10px;
     margin: 20px;
     user-select: none;
