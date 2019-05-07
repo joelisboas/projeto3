@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: semplicitapro, sans-serif;
+    font-family: semplicita, sans-serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -177,6 +177,11 @@
 
 /* BOTÕES ----------------------------------------------------------------------------------------*/
 
+.pre-code{
+    background-color: rgb(236, 236, 236);
+    padding: 10px;
+}
+
 .section-botoes{
     display: flex;
 }
@@ -241,6 +246,11 @@
 }
 .input-estado{
     height: 50px;
+}
+
+@font-face {
+    src: url("font/Semplicita Light.otf");
+    font-family: semplicita;
 }
 
 
