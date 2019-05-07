@@ -1,6 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "semplicita", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.body{
     font-family: "semplicitapro", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -116,6 +122,23 @@
 .content-logo .diminuida img{
     width: 100px;
 }
+
+/* TIPOGRAFIA ------------------------------------------------------------------------------------*/
+
+.content-tipo p{
+    margin-bottom: 20px;
+}
+
+.content-tipo .tipo1{
+
+}
+
+.content-tipo span{
+    display: inline-block;
+    margin: 5px 20px;
+    font-size: 18pt;
+}
+
 
 /* CORES ------------------------------------------------------------------------------------*/
 
