@@ -210,12 +210,12 @@
     margin: 20px;
     user-select: none;
     font-size: 14pt;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
 }
 
 .section-botoes button:hover{
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.486);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
 }
 
 .section-botoes .botao-primario{
@@ -224,7 +224,11 @@
 }
 
 .section-botoes .botao-primario:hover{
-    background-color: rgb(96, 39, 107);
+    background-color: rgb(80, 32, 90);
+}
+
+.section-botoes button:active{
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.849);
 }
 
 .section-botoes .botao-secundario{
