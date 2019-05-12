@@ -281,7 +281,6 @@
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
-    flex-basis: auto;
     width: 300px;
     height: 400px;
     overflow: hidden;
@@ -296,6 +295,7 @@
     height: 50px;
     background-color: #732F81;
     align-items: center;
+    justify-content: space-between;
 }
 
 .bate-papo .bate-papo-top img{
@@ -312,12 +312,8 @@
 }
 
 .bate-papo .bate-papo-top .bp-fechar{
-    margin: 0 10px;
-}
-
-.bate-papo .bate-papo-top .bp-config{
-    justify-content: flex-end;
-    margin: 0 10px;
+    margin-right: 10px;
+    height: 20px;
 }
 
 
@@ -325,23 +321,29 @@
 
 
 .bate-papo .bate-papo-bottom{
-    align-items: flex-end;
     display: flex;
     flex-wrap: nowrap;
     padding: 10px 0;
     border-top: 1px solid #732F81;
     width: 100%;
     height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
 }
 
 .bate-papo .bate-papo-bottom .bp-emoji{
-    justify-content: flex-start;
     height: 30px;
-    margin: 0 10px;
+    margin-left: 10px;
+}
+
+.bate-papo .bate-papo-bottom .input-bate-papo{
+    width: 100%;
 }
 
 .bate-papo .bate-papo-bottom .bp-enviar{
     height: 30px;
+    margin-right: 10px;
 }
 
 @font-face {
