@@ -39,3 +39,19 @@ for(let i=0; i < li.length; i++)
     li[i].addEventListener("click", function(){
         mostrarConteudo(i);
     });
+
+
+// FERRAMENTA DE BUSCA
+// let active= document.querySelectorAll("li");
+
+let text_busca= document.querySelectorAll(".text-busca");
+let div_busca= document.querySelectorAll(".div-busca");
+let botao_busca= document.querySelectorAll(".img-busca");
+
+function mostrarInput(){
+    text_busca.classList.toggle("text-busca-active");
+}
+
+botao_busca.addEventListener("click", function(){
+    mostrarInput();
+});

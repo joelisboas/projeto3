@@ -282,7 +282,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 300px;
-    height: 400px;
     overflow: hidden;
     border-radius: 7px;
     border: 1px solid #732F81;
@@ -290,6 +289,7 @@
 }
 
 .bate-papo .bate-papo-top{
+    cursor: pointer;
     display: flex;
     width: 100%;
     height: 50px;
@@ -314,14 +314,32 @@
 .bate-papo .bate-papo-top .bp-fechar{
     margin-right: 10px;
     height: 20px;
+    cursor: pointer;
 }
 
+.bate-papo-cont{
+    overflow: hidden;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
 
+.bate-papo-cont div{
+    width: 150px;
+    font-size: 10pt;
+    background: rgb(192, 192, 192);
+    height: 20px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 13px;
+}
 
+/* .bp-eu-text{
 
+} */
 
 .bate-papo .bate-papo-bottom{
-    bottom: 0;
     display: flex;
     flex-wrap: nowrap;
     padding: 10px 0;
@@ -335,6 +353,7 @@
 .bate-papo .bate-papo-bottom .bp-emoji{
     height: 30px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .bate-papo .bate-papo-bottom .input-bate-papo{
@@ -344,14 +363,48 @@
 .bate-papo .bate-papo-bottom .bp-enviar{
     height: 30px;
     margin-right: 10px;
+    cursor: pointer;
 }
+
+/* FERRAMENTA DE BUSCA -------------------------------------------------------------------------------- */
+
+.div-busca{
+    display: flex;
+    align-items: center;
+}
+
+.div-busca-active{
+    border: 1px solid #732F81;
+    border-radius:7px;
+    width: 300px;
+}
+   
+.text-busca{
+    background-color: transparent;
+    padding-left: 7px;
+    font-style: italic;
+    font-size: 16px;
+    border: none;
+    height: 20px;
+    width: 260px;
+    display: none;
+}
+
+.text-busca-active{
+    display: block;
+}
+
+.div-busca img{
+    padding: 5px;
+    height: 20px;
+    cursor: pointer;
+}
+
 
 @font-face {
     src: url("font/Semplicita Light.otf");
     font-family: semplicita;
 }
-
-
 
 /* @media screen and (min-width: 480px){
     .nav-sup .botao_sanduiche{
