@@ -4,6 +4,7 @@
     font-family: semplicita, sans-serif;
     font-style: normal;
     font-weight: 400;
+    outline: none;
 }
 
 .nav-sup{
@@ -212,6 +213,7 @@
     font-size: 14pt;
     -webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
+    outline: none;
 }
 
 .section-botoes button:hover{
@@ -366,6 +368,22 @@
     cursor: pointer;
 }
 
+.pop-up{
+    margin-bottom: 50px;
+    border: 1px solid #732F81;
+    padding: 20px;
+    border-radius: 7px;
+    width: 700px;
+    text-align: center;
+}
+
+.pop-up .titulo-pop-up{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 /* FERRAMENTA DE BUSCA -------------------------------------------------------------------------------- */
 
 .div-busca{
@@ -375,7 +393,7 @@
 
 .div-busca-active{
     border: 1px solid #732F81;
-    border-radius:7px;
+    border-radius: 7px;
     width: 300px;
 }
    
@@ -388,6 +406,7 @@
     height: 20px;
     width: 260px;
     display: none;
+    outline: none;
 }
 
 .text-busca-active{
