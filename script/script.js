@@ -46,12 +46,10 @@ for(let i=0; i < li.length; i++)
 
 let text_busca= document.querySelectorAll(".text-busca");
 let div_busca= document.querySelectorAll(".div-busca");
-let botao_busca= document.querySelectorAll(".img-busca");
+let botao_busca= document.querySelectorAll(".botao-busca");
 
 function mostrarInput(){
-    text_busca.classList.toggle("text-busca-active");
+    text_busca.classList.add("text-busca-active");
 }
 
-botao_busca.addEventListener("click", function(){
-    mostrarInput();
-});
+botao_busca.addEventListener("click", mostrarInput);
